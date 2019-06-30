@@ -8,6 +8,48 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>text = "Terminar el año escolar es un logro para la mayoría de estudiantes y docentes.";// Pero el grado de inicial o pre-primaria no es la excepción, para la maestra Geidy ";
+textT = ""
+for (i=1; i&lt;string_length(text)+1;i++){
+
+  show_debug_message(string(i)+":"+string_char_at(text,i));
+  
+
+if (i%35==0){
+   textT = string_insert("#",text,i+1)
+   show_debug_message("Salto de linea");
+   
+}
+
+}
+
+show_debug_message(textT);
+
+bytesize = string_byte_length("Hello World"); 
+
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
@@ -27,11 +69,9 @@
             <kind>1</kind>
             <string>draw_self();
 draw_set_font(fnt_default);
-text = "Terminar el año escolar es un logro para la mayoría de  estudiantes y docentes, ya que reciben un descanso entre un ciclo y otro, también para los más pequeños quienes se sienten motivados al pasar al primer grado formalmente.
-Al igual que en muchos centros educativos, los docentes de la escuela Bélgica Adela Mirabal (DEDE MIRABAL) de Santo Domingo Este, realizaron la entrega de notas  dando fin al año escolar 2018-2019.
-Pero el grado de inicial o pre-primaria no es la excepción, para la maestra Geidy Rodríguez, quien dijo sentirse feliz por ser el primer escalón o la zapata para que sus niños crezcan en un aprendizaje sano y feliz.
-"
-draw_text(x+16,y+16,text);
+
+
+draw_text(x+16,y+16,textT);
 </string>
           </argument>
         </arguments>
