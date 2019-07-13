@@ -26,23 +26,26 @@
           <argument>
             <kind>1</kind>
             <string>text = "Terminar el año escolar es un logro para la mayoría de estudiantes y docentes.";// Pero el grado de inicial o pre-primaria no es la excepción, para la maestra Geidy ";
-textT = ""
+//textT = ""
 for (i=1; i&lt;string_length(text)+1;i++){
 
   show_debug_message(string(i)+":"+string_char_at(text,i));
   
 
-if (i%35==0){
-   textT = string_insert("#",text,i+1)
+if (i%36==0){
+   
+
+   text = string_insert("#",text,i);
    show_debug_message("Salto de linea");
    
 }
 
 }
 
-show_debug_message(textT);
 
-bytesize = string_byte_length("Hello World"); 
+show_debug_message(text);
+
+
 
 
 </string>
@@ -71,7 +74,7 @@ bytesize = string_byte_length("Hello World");
 draw_set_font(fnt_default);
 
 
-draw_text(x+16,y+16,textT);
+draw_text(x+16,y+16,text);
 </string>
           </argument>
         </arguments>
