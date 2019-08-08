@@ -9,6 +9,9 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_block</sprite>
+    <sprite>sprites\spr_view</sprite>
+    <sprite>sprites\spr_p_box</sprite>
+    <sprite>sprites\spr_p_box_center</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
