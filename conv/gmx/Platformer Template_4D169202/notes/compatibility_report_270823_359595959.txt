@@ -1,0 +1,57 @@
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\scripts\scr_ground\scr_ground.gml
+Converted description /// @description  scr ground. This script checks for the collision with the ground or any platform
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\scripts\scr_approach\scr_approach.gml
+Converted description /// @description  scr_approach
+
+GameMaker Studio 1 font texture has been backed up at D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\fonts\fnt_roboto16\fnt_roboto16.gms1.png
+GameMaker Studio 1 font texture has been backed up at D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\fonts\fnt_roboto32\fnt_roboto32.gms1.png
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_player\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_player\Alarm_2.gml
+Converted description /// @description  Disable the player temporal jumping
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_player\Step_0.gml
+Converted description /// @description  Variables that need to change
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_player\Draw_64.gml
+Converted description /// @description  More debugging
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_player\Draw_0.gml
+Converted description /// @description  Debugging
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformH\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformH\Step_0.gml
+Converted description /// @description  Movement
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformH\Draw_0.gml
+Converted description /// @description  Debugging
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformV\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformV\Step_0.gml
+Converted description /// @description  Movement
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformV\Draw_0.gml
+Converted description /// @description  Debugging
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformF\Create_0.gml
+Converted description /// @description  Variables
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformF\Alarm_1.gml
+Converted description /// @description  Return the platform to it's original position
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformF\Alarm_0.gml
+Converted description /// @description  Activating the falling
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_platformF\Step_0.gml
+Converted description /// @description  Falling down
+
+Converting GML script: D:\GameMakerStudio2\Platformer Template\conv\gmx\Platformer Template_4D169202\objects\obj_water_top\Create_0.gml
+Converted description /// @description  Variables
+
+Game speed set to 60
