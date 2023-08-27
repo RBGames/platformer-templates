@@ -1,3 +1,3 @@
 # Platformer Templates
 
-Plantillas para un juego de plataformas, tanto para GameMaker como para Unity
+Plantilla para un juego de plataformas para Unity
